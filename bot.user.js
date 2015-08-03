@@ -185,7 +185,7 @@ console.log("Running Apos Bot!");
     }
 
     function isFood(blob, cell) {
-        if (!cell.isVirus() && compareSize(cell, blob, 1.30) || (cell.size <= 11)) {
+        if (!cell.isVirus() && compareSize(cell, blob, 1.30) || (cell.size <= 1000)) {
             return true;
         }
         return false;
